@@ -1,10 +1,14 @@
 "use client"
 
-import Hero from "@/components/sub/Hero"
+import About from "@/components/About"
+import Hero from "@/components/Hero"
 
 const page = () => {
   return (
-    <div> <Hero />   </div>
+    <div>
+      <Hero />
+      <About />
+    </div>
   )
 }
 

@@ -46,3 +46,109 @@ export const DownloadIcon = <DownloadLineIcon />
 export const ArrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const AboutText = "Hi, I'am Rohit, a web developer & designer.I blend the technical skills of web development with the creative aspects of web design. I code in HTML ,CSS,Javascript,React,NextJS,NodeJs...to build functional and responsive website"
+
+
+//skill Section
+export const skillsData = [
+
+    {
+        name: 'figma',
+        icon: "/skills/figma.png"
+
+    },
+    {
+        name: 'Vs Code',
+        icon: "/skills/vscode.png"
+
+    },
+    {
+        name: 'ai',
+        icon: "/skills/ai.png"
+
+    },
+    {
+        name: 'Html',
+        icon: "/skills/html.png"
+
+    },
+    {
+        name: 'CSS',
+        icon: "/skills/Css.png"
+
+    },
+    {
+        name: 'javaSscript',
+        icon: "/skills/js.png"
+
+    },
+    {
+        name: 'ReactJs',
+        icon: "/skills/react.png"
+
+    },
+    {
+        name: 'Tailwind',
+        icon: "/skills/tailwind.png"
+
+    },
+    {
+        name: 'threeJS',
+        icon: "/skills/threejs.png"
+
+    },
+    {
+        name: 'nodeJS',
+        icon: "/skills/nodejs.png"
+
+    },
+    {
+        name: 'mongoDB',
+        icon: "/skills/mongodb.png"
+
+    },
+    {
+        name: 'typeScript',
+        icon: "/skills/ts.png"
+
+    },
+    {
+        name: 'vite',
+        icon: "/skills/vite.png"
+
+    },
+    {
+        name: 'framer',
+        icon: "/skills/framer.png"
+
+    },
+    {
+        name: 'Linux',
+        icon: "/skills/Linux.png"
+
+    },
+    {
+        name: 'material',
+        icon: "/skills/Material UI.png"
+
+    },
+    {
+        name: 'GSAP',
+        icon: "/skills/gsap.jpeg"
+
+    },
+    {
+        name: 'npm',
+        icon: "/skills/NPM.png"
+
+    },
+    {
+        name: 'Wordpress',
+        icon: "/skills/WordPress.png"
+
+    },
+    {
+        name: 'php',
+        icon: "/skills/PHP.png"
+
+    },
+]

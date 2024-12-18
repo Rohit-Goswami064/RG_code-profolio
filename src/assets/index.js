@@ -181,3 +181,72 @@ export const reviewsData = [
         start: [1, 1, 1, 1, 0.5],
     }
 ]
+
+//Porjects button 
+export const projectbutton = [
+    'All',
+    'Figma',
+    'Html',
+    'CSS',
+    'JavaScript',
+    'ReactJS',
+    'TailwindCSS',
+    'NextJS',
+    'Framer-Motion',
+    "threeJS",
+    "NodeJS",
+    "Wordpress"
+]
+
+//projects
+export const projectData = [
+    {
+        name: "apexNucleus.com",
+        des: "ApexNucleus is a cutting-edge digital marketing agency dedicated to empowering businesses with innovative online strategies and impactful branding solutions.",
+        img: "/projects/apexnucleus.png",
+        url: "https://apexnucleus.com/",
+        tech: ['Figma', 'Html', 'CSS', 'JavaScript', 'TailwindCSS', 'ReactJS', 'NextJS', 'Framer-Motion']
+    },
+    {
+        name: "netflix clone",
+        des: "streming webiste",
+        img: "/projects/netflixProject.png",
+        url: "",
+        tech: ['Html', 'CSS', 'JavaScript', 'TailwindCSS', 'ReactJS',]
+    },
+    {
+        name: "country_flag",
+        des: "show all countires flags in wolds and some extra detail",
+        img: "/projects/Country_flagProjects.png",
+        url: "https://rg-country-app.netlify.app/",
+        tech: ['Figma', 'Html', 'CSS', 'JavaScript', 'ReactJS',]
+    },
+    {
+        name: "auto_cosmic.in",
+        des: "e-commmerce website to sell automobile cleaner prodects",
+        img: "/projects/auto_cosmic.svg",
+        url: "https://autocosmic.in/",
+        tech: ['Wordpress', 'Html', 'CSS', 'JavaScript',]
+    },
+    {
+        name: "activemuscle.in",
+        des: "e-commerce website to sell supplement ",
+        img: "projects/active_muslces.svg",
+        url: "https://apexnucleus.com/",
+        tech: ['Wordpress', 'Html', 'CSS', 'JavaScript',]
+    },
+    {
+        name: "loanagasintproperty.in",
+        des: "Help peoples to get loan easliy",
+        img: "/projects/loan_agasint_property.svg",
+        url: "https://apexnucleus.com/",
+        tech: ['Wordpress', 'Html', 'CSS', 'JavaScript',]
+    },
+    {
+        name: "tipsCal.in",
+        des: "Help peoples to calculate tips ",
+        img: "/projects/tipsCal.png",
+        url: "https://apexnucleus.com/",
+        tech: ['Html', 'CSS', 'JavaScript',]
+    },
+] 

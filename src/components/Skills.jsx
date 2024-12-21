@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Header from "./sub/Header";
 import { skillsData } from "@/assets";
-import { delay, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 
 const Skills = () => {
   const variants = {
@@ -21,7 +21,10 @@ const Skills = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-y-20 px-56">
+    <div
+      id="skills"
+      className="min-h-screen flex flex-col items-center justify-center gap-y-20 px-56"
+    >
       <Header text={"Skills"} />
       <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
         {skillsData.map((item, i) => (

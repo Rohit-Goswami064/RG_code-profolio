@@ -249,4 +249,46 @@ export const projectData = [
         url: "https://apexnucleus.com/",
         tech: ['Html', 'CSS', 'JavaScript',]
     },
-] 
+]
+import CopyrightLineIcon from "remixicon-react/CopyrightLineIcon";
+export const Copyrightcon = <CopyrightLineIcon />
+import Home5LineIcon from 'remixicon-react/Home5LineIcon'
+import CodeSSlashLineIcon from 'remixicon-react/CodeSSlashLineIcon'
+import UserLineIcon from 'remixicon-react/UserLineIcon'
+import UserAddLineIcon from 'remixicon-react/UserAddLineIcon'
+
+import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon'
+import ContactsBook2LineIcon from 'remixicon-react/ContactsBook2LineIcon'
+//navbar  data 
+export const navbarData = [
+    {
+        id: "home",
+        name: 'Home',
+        icon: <Home5LineIcon />
+    },
+    {
+        id: "about",
+        name: 'About',
+        icon: <UserLineIcon />
+    },
+    {
+        id: "reviews",
+        name: 'Reviews',
+        icon: <UserAddLineIcon />
+    },
+    {
+        id: "skills",
+        name: 'Skills',
+        icon: <CodeSSlashLineIcon />
+    },
+    {
+        id: "projects",
+        name: 'Projects',
+        icon: <ProjectorLineIcon />
+    },
+    {
+        id: "contact",
+        name: 'Contact',
+        icon: <ContactsBook2LineIcon />
+    },
+]

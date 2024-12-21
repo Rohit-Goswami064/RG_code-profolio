@@ -23,7 +23,7 @@ const Projects = () => {
   }, [index]);
 
   return (
-    <div className="min-h-screen py-20 px-60">
+    <div id="projects" className="min-h-screen py-20 px-60">
       <Header text={"Projects"} />
       <div className="flex flex-wrap items-center justify-between gap-4 py-10">
         {projectbutton.map((buttons, i) => (

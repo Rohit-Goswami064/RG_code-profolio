@@ -33,7 +33,10 @@ const Hero = () => {
   const rotateX = useTransform(ySpring, [0, innerHeight], [10, -50]);
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.5 }}
       id="home"
       className="h-screen grid place-items-center"
       onMouseMove={handleMousemove}
@@ -76,7 +79,12 @@ const Hero = () => {
             I like to build 😎
           </p>
         </div>
-        <div className="flex felx-col justify-center items-center mt-8 gap-x-10 text-3xl text-blue-600 sm:text-2xl">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="flex felx-col justify-center items-center mt-8 gap-x-10 text-3xl text-blue-600 sm:text-2xl"
+        >
           {heroIcons.map((icon, key) => (
             <a
               href="#"
@@ -86,17 +94,20 @@ const Hero = () => {
               {icon}{" "}
             </a>
           ))}
-        </div>
-        <a
+        </motion.div>
+        <motion.a
+          initial={{ opacity: 0, x: -30 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.7 }}
           href="#"
           className=" mx-auto mt-7  block w-max rounded-lg bg-blue-400 px-3 py-1 capitalize tracking-wider text-white hover:bg-blue-700 transition-colors "
           onMouseEnter={() => setButtonhover(true)}
           onMouseLeave={() => setButtonhover(false)}
         >
           Talk to me
-        </a>
+        </motion.a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

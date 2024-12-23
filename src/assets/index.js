@@ -292,3 +292,10 @@ export const navbarData = [
         icon: <ContactsBook2LineIcon />
     },
 ]
+
+//ToggleIcon
+import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
+import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
+
+export const SunIcon = <SunFoggyFillIcon />
+export const MoonIcon =<MoonFoggyFillIcon />

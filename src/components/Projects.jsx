@@ -31,7 +31,7 @@ const Projects = () => {
             initial={{ opacity: i === 0 ? 1 : 0.5, scale: i === 0 ? 1.2 : 1 }}
             key={i}
             ref={(el) => (buttonRef.current[i] = el)}
-            className="border border-blue-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400"
+            className="border rounded-xl px-2 py-1 text-sm font-light tracking-wider text-blue-600  border-blue-500  transition-colors"
             onClick={() => {
               setIndex(i);
               setTech(buttons);
@@ -41,7 +41,7 @@ const Projects = () => {
           </motion.button>
         ))}
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-5 ">
+      <div className="flex flex-wrap items-center justify-center gap-5">
         {projectData
           .filter((project) => {
             return project.tech.some((item) =>

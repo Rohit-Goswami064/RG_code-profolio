@@ -70,8 +70,8 @@ const Hero = () => {
               Hi
             </motion.span>
           </motion.div>
-          <h1 className="text-center text-3xl font-bold tracking-wide text-gray-500 sm:text-2xl ">{`I'm Rohit Goswami`}</h1>
-          <p className=" text-lg tracking-wider text-gray-700 ">
+          <h1 className="text-center text-3xl font-bold tracking-wide text-gray-500 sm:text-2xl dark:text-blue-500 transition-colors ">{`I'm Rohit Goswami`}</h1>
+          <p className=" text-lg tracking-wider text-gray-700 dark:text-white  transition-colors">
             {" "}
             I like to build 😎
           </p>

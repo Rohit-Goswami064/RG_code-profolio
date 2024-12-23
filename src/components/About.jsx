@@ -22,11 +22,11 @@ const About = () => {
           className="w-[120px] lg:w-[60px] md:hidden"
         />
 
-        <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify ">
-          <span className="absolute -left-5 top-20 scale-[2.5] text-zinc-100 md:hidden">
+        <div className="max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify dark:bg-zinc-700 transition-colors ">
+          <span className="absolute -left-5 top-20 scale-[2.5] text-zinc-100 md:hidden dark:bg-zinc-700 transition-colors">
             {ArrowLeftIcon}
           </span>
-          <p className="text-lg font-light text-gray-700 first-letter:pl-3 lg:text-[16px] sm:text-[14px]">
+          <p className="text-lg font-light text-gray-700 first-letter:pl-3 lg:text-[16px] sm:text-[14px] dark:text-white">
             {AboutText}
           </p>
           <a

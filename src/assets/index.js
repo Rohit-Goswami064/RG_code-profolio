@@ -4,9 +4,8 @@ import TwitterLineIcon from 'remixicon-react/TwitterLineIcon';
 
 
 export const heroIcons = [
-    <GithubLineIcon />,
-    <TwitterLineIcon />,
-
+    <GithubLineIcon key="github-icon" />,
+    <TwitterLineIcon key="twitter-icon" />,
 ]
 
 //about me icon
@@ -159,8 +158,15 @@ import StarHalfLineIcon from 'remixicon-react/StarHalfLineIcon';
 import ArrowLeftSLineIcon from 'remixicon-react/ArrowLeftSLineIcon';
 import ArrowRightSLineIcon from 'remixicon-react/ArrowRightSLineIcon';
 
-export const starIcon = [<StarSFillIcon />, <StarHalfLineIcon />]
-export const arrowIcon = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
+export const starIcon = [
+    <StarSFillIcon key="star-fill" />,
+    <StarHalfLineIcon key="star-half" />,
+];
+
+export const arrowIcon = [
+    <ArrowLeftSLineIcon key="arrow-left" />,
+    <ArrowRightSLineIcon key="arrow-right" />,
+];
 
 export const reviewsData = [
     {
@@ -298,4 +304,4 @@ import MoonFoggyFillIcon from 'remixicon-react/MoonFoggyFillIcon'
 import SunFoggyFillIcon from 'remixicon-react/SunFoggyFillIcon'
 
 export const SunIcon = <SunFoggyFillIcon />
-export const MoonIcon =<MoonFoggyFillIcon />
+export const MoonIcon = <MoonFoggyFillIcon />

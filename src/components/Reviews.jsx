@@ -28,7 +28,7 @@ const Reviews = () => {
   useEffect(() => {
     direction ? leftClickHnadler() : rightClickhandler();
     prevIndex.current = index;
-  }, [index]);
+  }, [direction, leftClickHnadler, rightClickhandler]);
 
   return (
     <div id="reviews" className="my-20 px-96">

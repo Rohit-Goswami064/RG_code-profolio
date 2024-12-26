@@ -23,10 +23,10 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className=" min-h-screen flex flex-col items-center justify-center gap-y-20 px-56 md:px-16 lg:px-28 xl:px-56 md:justify-center "
+      className="min-h-screen flex flex-col items-center justify-center px-96 gap-y-20 "
     >
       <Header text={"Skills"} />
-      <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
+      <div className="w-full flex flex-wrap justify-center gap-x-4 gap-y-6 sm:gap-x-6 lg:gap-x-8 lg:gap-y-8">
         {skillsData.map((item, i) => (
           <motion.div
             custom={i}
@@ -36,16 +36,18 @@ const Skills = () => {
             key={i}
             whileHover={{ scale: 1.1 }}
             viewport={{ margin: "50px", once: true }}
-            className="flex  items-center justify-center gap-x-3  rounded-xl border border-blue-500 bg-zinc-200 px-5 py-2 lg:py-2"
+            className="flex items-center justify-center gap-x-3 rounded-xl border border-blue-500 bg-zinc-200 px-4 py-3 sm:px-5 sm:py-3 lg:px-6 lg:py-4"
           >
             <Image
               src={item.icon}
-              alt={`${item.name} icon`} // Improved accessibility
+              alt={`${item.name} icon`}
               width={40}
               height={40}
-              className="h-auto w-[40px] sm:w-[30px]"
+              className="h-auto w-[30px] sm:w-[40px] lg:w-[50px]"
             />
-            <p className="text-sm text-gray-600">{item.name}</p>
+            <p className="text-sm sm:text-base lg:text-lg text-gray-600">
+              {item.name}
+            </p>
           </motion.div>
         ))}
       </div>

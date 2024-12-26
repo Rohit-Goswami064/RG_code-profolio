@@ -43,7 +43,7 @@ const Skills = () => {
               alt={`${item.name} icon`}
               width={40}
               height={40}
-              className="h-auto w-[30px] sm:w-[40px] lg:w-[50px]"
+              className="h-auto w-[30px]"
             />
             <p className="text-sm sm:text-base lg:text-lg text-gray-600">
               {item.name}

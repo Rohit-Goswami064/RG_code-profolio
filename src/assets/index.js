@@ -44,7 +44,7 @@ import ArrowLeftSFillIcon from 'remixicon-react/ArrowLeftSFillIcon'
 export const DownloadIcon = <DownloadLineIcon />
 export const ArrowLeftIcon = <ArrowLeftSFillIcon />
 
-export const AboutText = "Hi, I'am Rohit, a web developer & designer.I blend the technical skills of web development with the creative aspects of web design. I code in HTML ,CSS,Javascript,React,NextJS,NodeJs...to build functional and responsive website"
+export const AboutText = "Hi, I'm Rohit, a versatile Web Developer and Designer. I seamlessly blend the technical expertise of web development with the creative finesse of web design. Proficient in HTML, CSS, JavaScript, React, Next.js, Node.js, and Figma, I specialize in building functional, responsive, and visually appealing websites that deliver exceptional user experiences."
 
 
 //skill Section
@@ -72,7 +72,7 @@ export const skillsData = [
     },
     {
         name: 'CSS',
-        icon: "/skills/Css.png"
+        icon: "/skills/CSS.png"
 
     },
     {
